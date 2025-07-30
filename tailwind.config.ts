@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				industrial: {
+					dark: '#2D3748',
+					gray: '#A5568',
+					light: '#F7FAFC',
+					orange: '#FF6B35',
+					steel: '#718096'
 				}
+			},
+			fontFamily: {
+				'roboto-condensed': ['Roboto Condensed', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
